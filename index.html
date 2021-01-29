@@ -11,34 +11,41 @@
 <body>
     <footer>
             <menu class="menu wrap">
-                <ul class="menu__list">
+                <!-- <ul class="menu__list"> -->
                     <li class="menu__link"><a href="">Доставка</a></li>
                     <li class="menu__link"><a href="">Оплата</a></li>
                     <li class="menu__link"><a href="">Отзывы</a></li>
                     <li class="menu__link"><a href="">Вопрос - ответ</a></li>
                     <li class="menu__link"><a href="">Контакты</a></li>
-                </ul>
+                <!-- </ul> -->
             </menu>
     </footer>
     <div class="contact wrap">
         <div class="contact__logo">
-            <img src="img/logo.svg" alt="main-logo">
-            <h1>BEAUTY</h1>
+            <a href="" class="contact__direction">
+                <img src="img/logo.svg" alt="main-logo">
+            </a>
+            <a href="" class="contact__direction">
+                <h1>BEAUTY</h1>
+            </a>
         </div>
         <div class="contact__number">
-            <p class="number">8 (812) 123-45-67</p>
+            <a href="tel:+8 812 123-45-67" class="contact__direction">
+                <p class="number">8 (812) 123-45-67</p>
+            </a>
             <button class="contact__button-call">Обратный звонок</button>
         </div>
     </div>
+    <hr>
     <menu class="service wrap">
-            <ul class="service__list">
+            <!-- <ul class="service__list"> -->
                 <li class="service__link"><a href="">Парикмахерская</a></li>
                 <li class="service__link"><a href="">Барбершоп</a></li>
                 <li class="service__link"><a href="">Маникюр</a></li>
                 <li class="service__link"><a href="">Педикюр</a></li>
                 <li class="service__link"><a href="">Массаж</a></li>
                 <li class="service__link"><a href="">Мебель</a></li>
-            </ul>
+            <!-- </ul> -->
     </menu>
     <div class="main">
         <div class="main__wrap">
@@ -48,6 +55,22 @@
             <button class="main__button-call">Подробнее</button>
             <img src="img/bg-img.png" class="main__image" alt="background-chair">  
         </div>  
+    </div>
+    <div class="offer">
+        <div class="wrap">
+            <div class="offer__special">
+                <h3 class="offer__title">Специальные предложения</h3>
+                <img src="img/delivery.svg" class="offer__image" alt="delivery">
+            </div>
+            <div class="offer__items">
+                <div class="offer__item">
+                    <img src="img/chair.png" class="offer__item-image" alt="chair">
+                    <p>Парикмахерское кресло «Норм» гидравлическое</p>
+                    <span>9 900 ₽</span>
+                    <button class="offer__button-bye">Подробнее</button>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
 </html>
