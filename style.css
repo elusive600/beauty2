@@ -350,6 +350,11 @@ hr {
     width: 100%;
 }
 
+.offer__form input:active, 
+.offer__form input:focus {
+    outline: none;
+  }
+
 .offer__subscribe-image {
     padding-right: 5px;
 }
