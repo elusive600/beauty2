@@ -1,2 +1,2 @@
-# beauty2
+https://elusive600.github.io/beauty2/
  
