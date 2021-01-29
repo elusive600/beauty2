@@ -51,7 +51,7 @@
     <title>Document</title>
 </head>
 <body>
-    <footer>
+    <header>
             <menu class="menu wrap">
                 <!-- <ul class="menu__list"> -->
                     <li class="menu__link"><a href="">Доставка</a></li>
@@ -61,7 +61,7 @@
                     <li class="menu__link"><a href="">Контакты</a></li>
                 <!-- </ul> -->
             </menu>
-    </footer>
+    </header>
     <div class="contact wrap">
         <div class="contact__logo">
             <a href="" class="contact__direction">
@@ -71,11 +71,11 @@
                 <h1>BEAUTY</h1>
             </a>
         </div>
-        <div class="contact__number">
-            <a href="tel:+8 812 123-45-67" class="contact__direction">
-                <p class="number">8 (812) 123-45-67</p>
+        <div class="return">
+            <a href="tel:+88121234567" class="return__direction">
+                <p class="return__number">8 (812) 123-45-67</p>
             </a>
-            <button class="contact__button-call">Обратный звонок</button>
+            <button class="return__button-call">Обратный звонок</button>
         </div>
     </div>
     <hr>
@@ -131,15 +131,51 @@
                 </div>
                 <div class="offer__subscribe">
                     <div class="offer__info-input">
-                        <h4>Получайте бонусы и подарки</h4>
-                        <p>Каждый месяц разыгрываем 10 000 рублей для наших клиентов</p>
-                        <form>
-                            <input type="text" size="40">
+                        <h4 class="title-on-green">Получайте бонусы и подарки</h4>
+                        <p class="text-on-green">Каждый месяц разыгрываем 10&nbsp;000 рублей для наших клиентов</p>
+                        <form class="offer__form">
+                            <input type="text" placeholder="Введите e-mail">
                         </form>
                     </div>
+                    <img class="offer__subscribe-image" src="img/message.svg" alt="message">
+                </div>
+                <div class="offer__map">
+                    <h4 class="title-on-green">Заходите к нам</h4>
+                    <p class="offer__map-text text-on-green">Более 300 магазинов
+                        по всей России</p>
+                    <button class="offer__button-map">Карта магазинов</button>
                 </div>
             </div>
         </div>
     </div>
+    <div class="contact-bottom wrap">
+        <ul class="contact-bottom__list">
+            <li class="contact-bottom__item">
+                <a href="" class="contact-bottom__social-tube"></a>
+            </li>
+            <li class="contact-bottom__item">
+                <a href="" class="contact-bottom__social-vk"></a>
+            </li>
+            <li class="contact-bottom__item">
+                <a href="" class="contact-bottom__social-fb"></a>
+            </li>
+            <li class="contact-bottom__item">
+                <a href="" class="contact-bottom__social-inst"></a>
+            </li>
+        </ul>
+        <p class="contact-bottom__adress">198555, Невский пр. 140, офис 140</p>
+        <div class="return">
+            <a href="tel:+88121234567" class="return__direction">
+                <p class="return__number">8 (812) 123-45-67</p>
+            </a>
+            <button class="return__button-call">Обратный звонок</button>
+        </div>
+    </div>
+    <footer>
+        <div class="copyright wrap">
+            <a class="copyright__text" href="">Лучший магазин (с) 2019 Все права защищены. Интернет-магазин оборудования для салонов красоты</a>
+            <a class="copyright__text" href="">Политика конфиденциальности</a>
+        </div>
+    </footer>
 </body>
 </html>
