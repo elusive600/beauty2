@@ -87,6 +87,7 @@ menu {
     border: 2px solid #66C05D;
     border-radius: 40px;
     background: #FFFFFF;
+    cursor: pointer;
     transition: 0.3s;
     padding: 11px 24px;
 }
@@ -200,6 +201,7 @@ hr {
     border: 2px solid #FFFFFF;
     border-radius: 40px;
     color: #FFFFFF;
+    cursor: pointer;
     background: transparent;
     transition: 0.3s;
     padding: 10px 44.5px;
@@ -295,6 +297,7 @@ hr {
     border-radius: 40px;
     background: #66C05D;
     transition: 0.3s;
+    cursor: pointer;
     color: white;
     padding: 8px 37px;
 }
@@ -380,6 +383,7 @@ hr {
     border-radius: 30px;
     background: #66C05D;
     transition: 0.3s;
+    cursor: pointer;
     color: white;
     padding: 7px 27.5px;
 }
